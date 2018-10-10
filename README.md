@@ -14,6 +14,11 @@ class Animal
     {
         System.out.println("I am Flying"):
      }
+     
+     void sing ()
+     {
+        System.out.println("I am singing"):
+     }
  }
  
  public class Solution
