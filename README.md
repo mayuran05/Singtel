@@ -69,11 +69,31 @@ class Animal
          }
         }
  }
+ class butterfly extends Animal 
+ {
+   
+   void fly()
+   {
+   System.out.prinln("I am Flying");
+   }
+ }
  
- class Fish
+ class Catterpiller extends Butterfly
+ {
+  vod fly()
+  {
+   System.out.prinln("We can change their behaviour over time");
+  }
+ }
+ 
+ class Fish extends Animal
  {
         String colour;
         String size;
+        void walk()
+        {
+        System.out.println("Fish cannot walk");  
+        }
         void swim()
         {
         System.out.println("I am swimming");  
