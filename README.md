@@ -133,3 +133,14 @@ class Animal
  
  
  
+        int nfly=0;
+        int nwalk=0;
+        int nSing=0;
+        int nSwim=0;
+ foreach(a:animals)
+ {
+  
+        
+ }
+ 
+ 
