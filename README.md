@@ -70,6 +70,16 @@ class Animal
         }
  }
  
+ class Fish()
+ {
+        String colour;
+        void swim()
+        {
+        System.out.println("I am swimming");  
+        }
+        
+ }
+ 
  
  public class Solution
 {
