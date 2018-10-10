@@ -98,10 +98,7 @@ class Animal
         System.out.println("Clownfish make jokes");
         }
  }
- class Dolphin extends Fish
- {
- 
- }
+
  
  public class Solution
 {
