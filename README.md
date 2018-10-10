@@ -22,7 +22,7 @@ class Animal
  
  class Chicken extends Animal
  {
-        void sound()
+        void soundChiken()
         {
          System.out.println("A chicken says cluck cluck");
         }
@@ -30,7 +30,7 @@ class Animal
  }
  class Duck extends Animal
  {
-        void sound()
+        void soundDuck()
         {
          System.out.println("A duck says Quack Quack");
         }
@@ -38,6 +38,15 @@ class Animal
         {
           System.out.println("I am swimming");  
         }
+ }
+ 
+ class Rooster extends Chicken
+ {
+        void soundChicken()
+        {
+        System.out.println("Rooster says Cock-a-doodle-doo");  
+        }
+ 
  }
  
  
