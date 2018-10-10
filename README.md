@@ -14,10 +14,9 @@ class Animal
     {
         System.out.println("I am Flying"):
      }
-     
-     void sing ()
+     void sing()
      {
-        System.out.println("I am singing"):
+      System.out.println("I am Flying"):
      }
  }
  
@@ -31,4 +30,6 @@ class Animal
         bird.sing();
     }
  }
+ 
+ 
  
