@@ -70,16 +70,38 @@ class Animal
         }
  }
  
- class Fish()
+ class Fish
  {
         String colour;
+        String size;
         void swim()
         {
         System.out.println("I am swimming");  
+        } 
+        void habbit()
+        {
+        System.out.println("Every fish has different habbits")
         }
-        
  }
  
+ class Shark extends Fish
+ {
+        void habbit()
+        {
+        System.out.println("Shark eats other fish");
+        }
+ }
+ class ClownFish extends Fish
+ {
+        void habbit()
+        {
+        System.out.println("Clownfish make jokes");
+        }
+ }
+ class Dolphin extends Fish
+ {
+ 
+ }
  
  public class Solution
 {
